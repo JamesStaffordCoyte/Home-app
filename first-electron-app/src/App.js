@@ -21,7 +21,6 @@ function App() {
   //   setGreeting(greeting + sayHello[length]);
   //   setLength(length +);
   //   // Update the document title using the browser API
-  // 7668a82a059cd5e03886cb35026ce1ab
     setInterval(()=> {
       axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Vancouver&units=metric&appid=${API_KEY}`).then(response => {
         console.log(greeting)
