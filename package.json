@@ -1,0 +1,19 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "startWithTransparentOption": "electron --enable-transparent-visuals .",
+    "startWithAllOptions": "electron --enable-transparent-visuals --disable-gpu ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "electron": "^4.0.5",
+    "express": "^4.17.1",
+    "ps-node": "^0.1.6"
+  }
+}
