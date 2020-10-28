@@ -37,7 +37,7 @@ const onAppReady = function () {
 
   // parent.loadURL(MAIN_HTML);
   parent.loadURL('http://localhost:3000');
-  parent.webContents.openDevTools()
+  // parent.webContents.openDevTools()
 };
 
 application.get('/', async (req, res) => {
